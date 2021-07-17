@@ -58,7 +58,7 @@
              <option value="bagi">bagi</option>
          </select>
          <input name="nomor2" type="text" class="form-control" style="width: 150px; display: inline" />
-         <input name="submit" type="submit" value="Calculate" class="btn btn-primary" />
+         <input name="submit" type="submit" value="Hitung" class="btn btn-primary" />
      </form>
      
  </div>
