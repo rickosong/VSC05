@@ -18,7 +18,7 @@
  // cek nilai nomor
  if(is_numeric($_POST['nomor1']) && is_numeric($_POST['nomor2']))
  {
- // Calculate total
+ // kALKULASI TOTAL
  if($_POST['operasi'] == 'tambah')
  {
  $total = $_POST['nomor1'] + $_POST['nomorr2']; 
