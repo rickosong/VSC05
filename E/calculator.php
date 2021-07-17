@@ -51,10 +51,10 @@
      <form method="post" action="calculator.php">
          <input name="nomor1" type="text" class="form-control" style="width: 150px; display: inline" />
          <select name="operasi">
-          <option value="tambah">tambah</option>
-             <option value="kurang">kurang</option>
-             <option value="kali">kali</option>
-             <option value="bagi">bagi</option>
+          <option value="tambah">+</option>
+             <option value="kurang">-</option>
+             <option value="kali">*</option>
+             <option value="bagi">/</option>
          </select>
          <input name="nomor2" type="text" class="form-control" style="width: 150px; display: inline" />
          <input name="submit" type="submit" value="Hitung" class="btn btn-primary" />
