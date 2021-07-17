@@ -15,7 +15,7 @@
  // jika tombol submit sudah ditekan
  if(isset($_POST['submit']))
  {
- // Check number values
+ // cek nilai nomor
  if(is_numeric($_POST['nomor1']) && is_numeric($_POST['nomor2']))
  {
  // Calculate total
@@ -36,17 +36,16 @@
  $total = $_POST['nomor1'] / $_POST['nomor2']; 
  }
  
- // Print total to the browser
+ // mem-print total hasilnya di browser
  echo "<h1>{$_POST['nomor1']} {$_POST['operasi']} {$_POST['nomor2']} sama dengan {$total}</h1>";
  
  } else {
  
- // Print error message to the browser
- echo 'Numeric values are required';
+ // mem-print pesanerror di browser
+ echo 'Nilai numerik wajib diisi ';
  
  }
  }
- // end PHP. Code by webdevtrick.com
  ?>
      
      <!-- Calculator form by webdevtrick.com -->
