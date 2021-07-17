@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Image Slider</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				font-size: 62.5%;
+			}
+
+			.slider {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.slides {
+				display: flex;
+				width: 50rem;
+				overflow: hidden;
+			}
+
+			.slide {
+				width: 50rem;
+				transition: 0.5s;
+			}
+			.choose_1:checked ~ .slides > .s1 {
+				margin-left: 0rem;
+			}
+			.choose_2:checked ~ .slides > .s1 {
+				margin-left: 50rem;
+			}
+			.choose_2:checked ~ .slides > .s1 {
+				margin-left: 100rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="slider">
+			<input type="radio" name="choose" class="choose_1" checked />
+			<input type="radio" name="choose" class="choose_2" />
+			<input type="radio" name="choose" class="choose_3" />
+			<div class="slides">
+				<img src="pic/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="foto1" class="slide s1" />
+				<img src="pic/pexels-carlos-oliva-3586966.jpg" alt="foto2" class="slide" />
+				<img src="pic/pexels-markus-spiske-1089438.jpg" alt="foto3" class="slide" />
+			</div>
+		</div>
+	</body>
+</html>
