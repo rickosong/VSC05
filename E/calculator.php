@@ -48,7 +48,6 @@
  }
  ?>
      
-     <!-- Calculator form by webdevtrick.com -->
      <form method="post" action="calculator.php">
          <input name="nomor1" type="text" class="form-control" style="width: 150px; display: inline" />
          <select name="operasi">
